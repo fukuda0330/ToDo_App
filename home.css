@@ -1,0 +1,83 @@
+body{
+    background-color: aliceblue;
+}
+
+.title {
+    font-size: 50px;
+    position: relative;
+    padding: 1.5rem;
+    text-align: center;
+}
+  
+.title:before {
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 30px);
+    width: 60px;
+    height: 5px;
+    content: '';
+    border-radius: 5px;
+    background: black;
+}
+
+.Todo-list, .register {
+    font-size:40px;
+    color:black;
+    line-height: 1em
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+      
+table th{
+    padding: 10px 0;
+    text-align: center;
+    background-color: #eee;
+    border-bottom: double;
+}
+
+table td{
+    background-color:white;
+    text-align: center;
+}
+  
+.TDnumber {
+    text-align: center;
+}
+    
+.button{
+    background-color: transparent;
+    text-align: center;
+}
+input{
+    border: none;
+}
+
+.Checkbox{
+    text-align: center;
+}
+
+
+.main-contents{
+    display: block;
+    margin-left: 250px;
+}
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    height: 100vh;
+    background: white;
+}
+
+
+.menu li {
+    list-style: none;
+}
+.menu h3{
+    text-align: center;
+}

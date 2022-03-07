@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="content-type" charset="UTF-8">
+  <link rel="stylesheet" href="test.css">
+  <title>ToDoリスト</title>
+</head>
+
+<body>
+  <nav class="menu">
+    <h3>Menu</h3>
+    <ul>
+      <li>カテゴリ登録
+      <li>ユーザー情報
+      <li>ログアウト
+    </ul>
+  </nav>
+  <div class="main-contents">
+    <header class="header">
+      <h1 class="title">HOME</h1>
+    </header>
+    <div class="Todo-list">Todoリスト</div>
+    <table>
+      <tr>
+        <th class="Blank"></th>
+        <th>No</th>
+        <th>カテゴリ</th>
+        <th>タスク</th>
+        <th>担当者</th>
+        <th>開始日</th>
+        <th>期限</th>
+        <th>成果物</th>
+        <th>登録日</th>
+        <th>更新日</th>
+      </tr>
+      <tr>
+        <td class="Checkbox"><input type="checkbox" name="b" value=""></td>
+        <td class="TDnumber">1</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="button"><button type="button">削除</button></td>
+        <td class="button"><button type="button">更新</button></td>
+      </tr>
+      <tr>
+        <td class="Checkbox"><input type="checkbox" name="b" value=""></td>
+        <td class="TDnumber">2</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="button"><button type="button">削除</button></td>
+        <td class="button"><button type="button">更新</button></td>
+
+      </tr>
+    </table>
+    <p>
+    <div class="register">登録</div>
+      <form>
+        <input type="hidden" name="a" value="1">
+        <table>
+          <tr>
+            <th>カテゴリ名</th>
+            <th>タスク名</th>
+            <th>担当者</th>
+            <th>開始日</th>
+            <th>期限</th>
+            <th>成果物</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="text" name="category" placeholder="カテゴリーを入力" style="border:none">
+            </td>
+            <td>
+              <input type="text" name="task" placeholder="タスクを入力" style="border:none">
+            </td>
+            <td>
+              <input type="text" name="name" placeholder="担当者を選択" style="border:none">
+            </td>
+            <td>
+              <input type="date" name="start-day" style="border:none">
+            </td>
+            <td>
+              <input type="date" name="dead-line" style="border:none">
+            </td>
+            <td>
+              <input type="text" name="output" placeholder="成果物を入力" style="border:none">
+            </td>
+            <td class="button">
+            <input type="submit" value="追加">
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
